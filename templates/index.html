@@ -1,0 +1,21 @@
+<link rel="stylesheet" href="test.css">
+<form action ="#" method="POST">
+  <div class="form-group">
+    <!-- email -->
+    <label for="email">Email</label>
+    <input name="email" pattern="[A-Za-z0-9._+-]+@[A-Za-z0-9 -]+\.[a-z]{2,}" id="email" required type="email" title="must be a valid email address">
+  </div>
+  <div class="form-group">
+    <!-- first name -->
+    <label for="first name">first name</label>
+    <input name="first_name" pattern="[a-z+A-Z]{2,}" required type="text">
+    <!-- last name -->
+  <div class="form-group">
+    <label for="last name"> last name</label>
+    <input name="last_name" pattern="[a-z+A-Z]{2,}" required type="text">
+    {{first_name}}
+    {{last_name}}
+    {{email}}
+  </div>
+  <button>Submit</button>
+</form>
