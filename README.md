@@ -11,8 +11,9 @@ flash is:
 
 ## Getting Started
 1) git clone the repo
-2) edit the .env to include your email and generate a app password if using [gmail](https://support.google.com/accounts/answer/185833)
-3) edit the smtp server if you don't gmail
+2) pip install -r requirements.txt
+3) edit the .env to include your email and generate a app password if using [gmail](https://support.google.com/accounts/answer/185833)
+4) edit the smtp server if you don't gmail
 
 
 
